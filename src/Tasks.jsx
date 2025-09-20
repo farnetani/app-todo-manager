@@ -15,7 +15,11 @@ function Tasks() {
     }
 
     return (
-        <main className="flex flex-col gap-4 p-3">
+        <main className="flex flex-col gap-4 p-3 bg-gray-100">
+            <div className="bg-blue-500 text-white p-4 rounded-lg shadow-lg mb-4">
+                <h2 className="text-xl font-bold">Teste do Tailwind CSS</h2>
+                <p className="text-sm mt-2">Se você está vendo este box azul com texto branco, o Tailwind CSS está funcionando perfeitamente!</p>
+            </div>
             <Header>Adicione uma tarefa</Header>
             <div className="flex flex-col items-center gap-2">
                 <Input className="input" 
