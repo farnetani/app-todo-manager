@@ -3,19 +3,23 @@
 
 /* adicionar isso no settings.json para ignorar o erro de linter: "css.lint.unknownAtRules": "ignore" */
 @theme {
-  --font-family-sans: "Poppins", sans-serif;
+  --font-sans: "Poppins", sans-serif;
 }
 
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
 @layer base {
-  /* body {
-    font-family: "Poppins", sans-serif;
-  } */
+   body {
+    /* font-family: "Poppins", sans-serif; */
+    /* background-color: #F8F8F8; */
+
+    /* No tailwind, é necessário usar o formato [cor] */
+    @apply bg-[#f8f8f8];
+  } 
 
   @font-face {
       font-family: "Poppins";

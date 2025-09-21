@@ -1,9 +1,10 @@
 import Tasks from './Tasks'
+import Sidebar from './components/Sidebar'
 
 function App() {
     return (
         <>
-        <h1 className="font-poppins font-bold text-2xl">App Todo</h1> 
+        <Sidebar />
         <Tasks />
         </>
     )
